@@ -107,6 +107,9 @@ function renderProjects(data) {
       const lang = p.language
         ? `<span class="lang"><span class="lang-dot" data-lang="${esc(p.language.toLowerCase())}"></span>${esc(p.language)}</span>`
         : '';
+      const created = p.createdAt
+        ? `<span class="project-date">Created ${esc(new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(p.createdAt)))}</span>`
+        : '';
       const demo = p.demo
         ? `<a class="project-link" href="${esc(safeUrl(p.demo))}" target="_blank" rel="noopener noreferrer">${profileIcon('external')} Live</a>`
         : '';
@@ -124,6 +127,7 @@ function renderProjects(data) {
         ${tags ? `<ul class="tags">${tags}</ul>` : ''}
         <div class="project-meta">
           ${lang}
+          ${created}
           ${p.stars ? `<span title="Stars">${profileIcon('star')} ${esc(p.stars)}</span>` : ''}
           ${p.forks ? `<span title="Forks">${profileIcon('fork')} ${esc(p.forks)}</span>` : ''}
         </div>

@@ -168,6 +168,7 @@ svg { width: 1.15em; height: 1.15em; flex-shrink: 0; }
 .project .tags { margin-top: 16px; }
 .project-meta { display: flex; gap: 18px; align-items: center; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); font-size: .85rem; color: var(--muted); }
 .project-meta span { display: inline-flex; align-items: center; gap: 6px; }
+.project-meta .project-date { margin-left: auto; font-size: .78rem; font-variant-numeric: tabular-nums; }
 .lang-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c2); }
 
 /* Skills */

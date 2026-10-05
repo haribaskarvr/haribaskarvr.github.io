@@ -51,6 +51,7 @@ async function enrichProjects(projects = []) {
         language: p.language ?? gh.language ?? '',
         stars: gh.stargazers_count ?? 0,
         forks: gh.forks_count ?? 0,
+        createdAt: p.createdAt ?? gh.created_at ?? '',
         tags: p.tags ?? gh.topics ?? [],
         demo: p.demo ?? gh.homepage ?? '',
       };
