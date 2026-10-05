@@ -1,0 +1,23 @@
+{
+  "name": "haribaskarvr.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio generated from data/resume.yml",
+  "type": "module",
+  "scripts": {
+    "build": "node --use-system-ca scripts/build.js",
+    "build:site": "node --use-system-ca scripts/build.js --no-pdf",
+    "preview": "npm run build && npx --yes http-server dist -p 8080 -c-1 -o"
+  },
+  "engines": {
+    "node": ">=22.15"
+  },
+  "dependencies": {
+    "js-yaml": "^5.4.2",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^25.12.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.12.0": true
+  }
+}

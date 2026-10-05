@@ -1,0 +1,211 @@
+# =====================================================================
+#  SINGLE SOURCE OF TRUTH
+#  Edit this file and push to `main` -> the website (index.html) and the
+#  downloadable PDF resume are regenerated and redeployed automatically.
+#  Dates use MM/YYYY. Leave `end` empty for a current role.
+# =====================================================================
+
+site:
+  url: https://haribaskarvr.github.io
+  title: Haribaskar Venu Raman | Salesforce Technical Architect
+  description: >-
+    Salesforce Technical Architect with 10+ years designing enterprise-scale
+    solutions across Revenue Cloud, CPQ, OmniStudio, Communications Cloud,
+    Financial Services Cloud and Agentforce.
+  resumeFileName: Haribaskar_Venu_Raman_Resume.pdf
+  # The phone number always appears on the PDF; set true to also show it on the public site.
+  showPhoneOnSite: false
+  # PDF page size: Letter or A4
+  pdfFormat: Letter
+
+basics:
+  name: Haribaskar Venu Raman
+  initials: HV
+  headline: Salesforce Technical Architect
+  # Rotating titles shown in the hero (typewriter effect)
+  roles:
+    - Salesforce Technical Architect
+    - Revenue Cloud & CPQ Specialist
+    - OmniStudio & Industries Expert
+    - Agentforce & AI Solution Builder
+  location: ""
+  email: vrhb.use@gmail.com
+  phone: "+1 (609) 474 0375"
+  # Optional: drop a square image at src/assets/profile.jpg and set: photo: assets/profile.jpg
+  photo: ""
+  # Used to compute "years of experience" automatically
+  careerStart: 08/2015
+  summary: >-
+    Results-driven Salesforce Technical Architect with over a decade of experience designing
+    and delivering enterprise-scale solutions across Salesforce Core (Sales, Service, Experience
+    Cloud), Quote-to-Cash, Salesforce Industries (Communications Cloud, Financial Services Cloud)
+    and Revenue Cloud. Proven ability to lead development teams, define technical strategy, and
+    architect complex product catalog, CPQ, and order management implementations for telecom and
+    financial services clients. Passionate about translating business complexity into scalable,
+    maintainable solutions that drive measurable outcomes.
+  profiles:
+    - network: LinkedIn
+      username: haribaskarvr
+      url: https://linkedin.com/in/haribaskarvr
+    - network: GitHub
+      username: haribaskarvr
+      url: https://github.com/haribaskarvr
+
+# Big animated numbers on the site (years of experience is added automatically)
+highlights:
+  - value: 60
+    suffix: "%"
+    label: Faster CRM updates with Agentforce AI
+  - value: 25
+    suffix: "%"
+    label: Uplift in client sales revenue
+  - value: 30
+    suffix: "%"
+    label: Reduction in project delivery time
+  - value: 3
+    suffix: "x"
+    label: Faster business flows (24s to 8s)
+
+experience:
+  - company: LTM Ltd.
+    location: Canada
+    role: Senior Specialist Architecture
+    type: Full-time
+    start: 08/2026
+    end:
+    tech: [Revenue Cloud, CPQ Migration, Document Generation, Apex, LWC]
+    highlights:
+      - Leading a cross-functional team to design and implement a scalable Revenue Cloud Advanced (RCA) architecture migrating from Oracle CPQ for Auto Insurance claims management, resulting in a 30% reduction in project delivery time through optimized workflows.
+      - Architected and developed a scalable Salesforce document generation solution with complex business rules and dynamic legal clauses, partnering with Legal and Marketing teams to streamline document creation and ensure regulatory and brand compliance.
+
+  - company: Slalom Consulting
+    location: Canada
+    role: Principal
+    type: Full-time
+    start: 12/2024
+    end: 08/2026
+    tech: [Financial Services Cloud, Agentforce, OmniStudio, LWC, Business Rules Engine, Apex]
+    highlights:
+      - Directed the technical architecture and led a cross-functional development team in delivering FSC solutions, defining design patterns, data models, and integration strategies aligned with enterprise-scale business requirements.
+      - Leveraged Salesforce Agentforce and AI automation to transform voice and handwritten meeting notes into structured summaries and follow-up actions, accelerating sales CRM updates by 60% and significantly reducing manual data entry.
+      - Provided strategic technical oversight and hands-on development across OmniStudio (OmniScripts, DataMappers, Integration Procedures), Lightning Web Components, Business Rules Engine and Apex, resolving complex orchestration and customization challenges while enforcing coding standards and best practices.
+      - Partnered with business and solution architecture teams to evaluate trade-offs, define solution boundaries, and translate complex telecom requirements into scalable, maintainable Salesforce-native implementations.
+      - Delivered a solution that contributed to a 25% uplift in client sales revenue by re-engineering the quoting, product configuration, and order capture workflows, reducing friction and improving sales cycle efficiency.
+
+  - company: IBM Canada
+    location: Canada
+    role: SFI Technical Architect
+    type: Full-time
+    start: 03/2021
+    end: 11/2024
+    tech: [Communications Cloud, OmniStudio, LWC, SAP Integration, Siebel Integration]
+    highlights:
+      - Spearheaded the design and development of innovative solutions aligned with the organization's business processes, ensuring seamless integration and optimal performance.
+      - Engineered intricate functionality and data models with a focus on performance, scalability, and exceptional user experiences.
+      - Designed and developed custom solutions to integrate Salesforce with enterprise applications such as SAP and Siebel.
+      - Built a sophisticated custom hierarchy view using an open-source library, combining Lightning Web Components (LWC) and OmniScript.
+      - Supported the development team in tackling complex customization challenges, leveraging technical depth to drive effective problem-solving.
+      - Accountable for defining and delivering project technical designs and solutions, ensuring adherence to industry best practices and project objectives.
+
+  - company: IBM India Pvt Ltd
+    location: India
+    role: Package Consultant
+    type: Full-time
+    start: 05/2019
+    end: 03/2021
+    tech: [Vlocity EPC, Vlocity Order Management, Experience Cloud, OmniScript]
+    highlights:
+      - Built multiple guided flows while offering expert guidance on best practices to achieve optimized performance.
+      - Leveraged Vlocity Enterprise Product Catalog and Vlocity Order Management extensively for efficient product catalog management and streamlined order processes.
+      - Owned the development of communities using Experience Cloud, creating engaging and user-friendly digital experiences for customers and partners.
+      - Played a key role in the design phase of projects, delivering scalable and optimized solutions aligned with business objectives.
+
+  - company: ITC Infotech Pvt Ltd
+    location: India
+    role: Associate IT Consultant
+    type: Full-time
+    start: 09/2018
+    end: 04/2019
+    tech: [Experience Cloud, Communities Builder, Translation Workbench, AI Integration]
+    highlights:
+      - Developed and implemented Experience Cloud sites tailored to the B2B business model, fostering seamless interactions and enhancing user experiences.
+      - Designed functionality for multiple end markets using Custom Labels, Custom Translation and Communities Builder, using one org for two distinct purposes with shared objects to optimize resource utilization.
+      - Integrated various Salesforce apps to host video and gaming content, enriching the platform with multimedia and interactive features.
+      - Collaborated on the integration and processing of images using an external AI system, enhancing data analysis and insights.
+
+  - company: Accenture Solutions Pvt Ltd
+    location: India
+    role: Application Development Analyst
+    type: Full-time
+    start: 08/2015
+    end: 09/2018
+    tech: [Vlocity CPQ, DataRaptors, Integration Procedures, Vlocity Cards, Communities]
+    highlights:
+      - Built and customized multiple guided flows while offering expert guidance on best practices to achieve optimized performance.
+      - Improved overall business flow performance, reducing processing time from 24 seconds to 8 seconds using DataRaptors and Integration Procedures.
+      - Delivered multiple performance-focused solutions and integrated Vlocity components into Communities, enhancing user engagement and satisfaction.
+      - Designed and implemented an agent console using Vlocity cards and console, streamlining user interactions and increasing productivity.
+      - Used Vlocity's out-of-the-box card templates to expedite development while meeting specific business requirements.
+      - Created products using Vlocity CPQ in the Product Console, enabling efficient product management and configuration.
+
+education:
+  - degree: Bachelor of Engineering in Electrical and Electronics Engineering
+    institution: Meenakshi Sundararajan Engineering College
+    location: Chennai, Tamil Nadu, India
+    start: 08/2011
+    end: 05/2015
+
+# Featured GitHub repos. Description, language, stars and topics are fetched live
+# from GitHub at build time; any field set here overrides the fetched value.
+# Optional per project: title, description, tags, demo (live URL), inPdf (true to list on the PDF)
+projects:
+  - repo: haribaskarvr/rca-cml-migration
+    title: RCA CML Migration
+    tags: [Revenue Cloud, CML, Salesforce CLI, Python]
+    inPdf: true
+  - repo: haribaskarvr/salesforce-customizable-hierarchy
+    title: Customizable Hierarchy LWC
+    tags: [LWC, Apex, Custom Metadata, Data Visualization]
+    inPdf: true
+  - repo: haribaskarvr/salesforce-trigger-framework
+    title: Metadata-Driven Trigger Framework
+    tags: [Apex, Trigger Framework, Custom Metadata, Async Processing, Design Patterns]
+    inPdf: true
+
+# Public Trailblazer profiles where visitors can verify certifications
+trailblazerProfiles:
+  - url: https://www.salesforce.com/trailblazer/hvenuraman
+  - url: https://www.salesforce.com/trailblazer/haribaskarvenuraman
+
+# Shown on the website in this order (names only).
+# featured: true -> also listed on the PDF resume.
+certifications:
+  - name: Revenue Management Consultant
+    featured: true
+  - name: Agentforce Specialist
+    featured: true
+  - name: Application Architect
+    featured: true
+  - name: System Architect
+    featured: true
+  - name: Platform Integration Architect
+  - name: Platform Data Architect
+  - name: Platform Sharing and Visibility Architect
+  - name: Platform Identity and Access Management Architect
+  - name: Platform Development Lifecycle and Deployment Architect
+  - name: Platform Developer II
+  - name: Platform Developer I
+  - name: Industries CPQ Developer
+  - name: OmniStudio Consultant
+  - name: OmniStudio Developer
+  - name: CRM Analytics and Einstein Discovery Consultant
+  - name: Platform App Builder
+  - name: Platform Administrator
+
+skills:
+  - category: Salesforce
+    items: [Apex, LWC, JavaScript, REST, Salesforce Integration Patterns, Sales Cloud, Service Cloud, Experience Cloud, Revenue Cloud, Agentforce, Health Insurance, Salesforce Best Practices]
+  - category: Salesforce Industries
+    items: [OmniStudio Suite, Communications Cloud, Enterprise Sales Management (ESM), Health Insurance Cloud, Product Catalog, Catalog Management, Product Management, Integration]
+  - category: General
+    items: [Solution Design, Technical Leadership, Node.js, Scalability, Seamless Integration, Communication, Ownership]
