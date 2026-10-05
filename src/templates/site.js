@@ -118,7 +118,7 @@ function renderProjects(data) {
             <a class="project-link" href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(p.title)} on GitHub">${profileIcon('github')} Code</a>
           </div>
         </div>
-        <h3><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3>
+        <h3><a href="${esc(safeUrl(p.demo || p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3>
         <p class="repo-path">${esc(p.repo)}</p>
         <p class="project-desc">${esc(p.description)}</p>
         ${tags ? `<ul class="tags">${tags}</ul>` : ''}

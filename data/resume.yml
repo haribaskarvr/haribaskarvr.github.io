@@ -161,14 +161,17 @@ education:
 projects:
   - repo: haribaskarvr/rca-cml-migration
     title: RCA CML Migration
+    demo: https://haribaskarvr.github.io/rca-cml-migration/
     tags: [Revenue Cloud, CML, Salesforce CLI, Python]
     inPdf: true
   - repo: haribaskarvr/salesforce-customizable-hierarchy
     title: Customizable Hierarchy LWC
+    demo: https://haribaskarvr.github.io/salesforce-customizable-hierarchy/
     tags: [LWC, Apex, Custom Metadata, Data Visualization]
     inPdf: true
   - repo: haribaskarvr/salesforce-trigger-framework
     title: Metadata-Driven Trigger Framework
+    demo: https://haribaskarvr.github.io/salesforce-trigger-framework/
     tags: [Apex, Trigger Framework, Custom Metadata, Async Processing, Design Patterns]
     inPdf: true
 
