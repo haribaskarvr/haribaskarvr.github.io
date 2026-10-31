@@ -160,7 +160,7 @@ education:
 # Optional per project: title, description, tags, demo (live URL), inPdf (true to list on the PDF)
 projects:
   - repo: haribaskarvr/SignZero
-    title: SignZero: E-Signatures, Native to Salesforce
+    title: "SignZero: E-Signatures, Native to Salesforce"
     demo: https://haribaskarvr.github.io/SignZero/
     tags: [Revenue Cloud, E-Signature, Native Salesforce, Apex, Audit Trail, Document Integrity]
     inPdf: true
