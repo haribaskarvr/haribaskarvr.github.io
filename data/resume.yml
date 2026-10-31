@@ -163,6 +163,8 @@ projects:
     title: "SignZero: E-Signatures, Native to Salesforce"
     demo: https://haribaskarvr.github.io/SignZero/
     tags: [Revenue Cloud, E-Signature, Native Salesforce, Apex, Audit Trail, Document Integrity]
+    description: >-
+      SignZero is a native Salesforce e-signature solution that enables users to securely sign documents within Salesforce. It ensures document integrity, provides an audit trail, and integrates seamlessly with Revenue Cloud, CPQ processes and many more clouds.
     inPdf: true
   - repo: haribaskarvr/rca-cml-migration
     title: RCA CML Migration
